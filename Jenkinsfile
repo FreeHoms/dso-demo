@@ -26,7 +26,7 @@ pipeline {
     }
     post {
         success {
-            dependencyTrackPublisher(
+            // dependencyTrackPublisher(
                 projectName: 'sample-spring-app',
                 projectVersion: '0.0.1',
                 artifact: 'target/bom.xml',
